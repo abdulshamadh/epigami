@@ -1,0 +1,129 @@
+#header {
+	
+	border:solid 1px black;
+	width:960px;
+	margin:0 auto;
+	height:100px;
+	}
+#breadcrumb {
+	
+	border:solid 1px black;
+	margin:0 auto;
+	width:960px;
+	}
+#fullcontent {
+	
+	width:960px;
+	margin:0 auto;
+	height:466px;
+	}
+#sidebar {
+	
+	border:solid 1px black;
+	float:left;
+	height:inherit;
+	width:24%;
+	}
+#content {
+	
+	border:solid 1px black;
+	height:inherit;
+	float: right;
+	width: 75.5%;
+	}
+#footer {
+	border:solid 1px black;
+	width:960px;
+	margin:0.6px auto;
+	height:100px;
+	}
+	
+a {
+text-decoration: none !important;
+}
+	
+.current {
+	background-color:#f90 !important;
+}
+	
+
+#sidebar { font-size:0.75em;  }
+#sidebar ul { margin:0px; padding:0px; }
+#sidebar li { list-style: none; } 
+ 
+ul.top-level { background:#666; }
+ul.top-level li {
+ border-bottom: #fff solid;
+ border-top: #fff solid;
+ border-width: 1px;
+}
+ 
+#sidebar a {
+ color: #fff;
+ cursor: pointer;
+ display:block;
+ height:25px;
+ line-height: 25px;
+ text-indent: 10px;
+ text-decoration:none;
+ width:100%;
+}
+ 
+#sidebar a:hover {
+ background: #f90;
+ position: relative;
+}
+
+.middlelevel {
+background-color:red;
+}
+
+.sub-level li a {
+text-indent:25px !important;
+}
+
+#editor {float:right;}
+
+#adminpagelisttable td {
+	border:1px solid crimson;
+}
+#adminpagelisttable thead td{
+font-weight:bold;
+}
+
+#adminpagelisttable{border-collapse:collapse;width:inherit;font-size:14px;}
+
+#submenu {opacity:0;font-style:italic;font-size: 12px;}
+
+#submenu:hover {opacity:1;}
+
+.floatleft {float:left;}
+
+.floatright {float:right;}
+
+#actionform {width: 90px;float: left;margin-bottom: 0px;}
+
+.contentborder {border: 1px solid #e3e3e3;padding: 15px;border-radius: 4px;}
+
+.modalcustomwidth {left:60% !important; width:300px !important; }
+
+.emptyinput {
+	border-color: rgba(255, 0, 0, 0.8) !important;
+	outline: 0 !important;
+	outline: thin dotted \9 !important;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(236, 82, 107, 0.6) !important;
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(236, 82, 107, 0.6) !important;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(236, 82, 107, 0.6) !important;
+}
+
+.asteriskrequired{
+	color: red;
+	font-size: 20px;
+}
+
+.icon-red{
+	background-image: url("../img/glyphicons-halflings-red.png") !important;
+}
+.icon-lightgreen{
+	background-image: url("../img/glyphicons-halflings-green.png") !important;
+}

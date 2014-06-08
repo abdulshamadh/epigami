@@ -1,0 +1,10 @@
+# Application folders #
+cache/*
+logs/*
+
+# OS generated files #
+ehthumbs.db
+Thumbs.db
+
+# Application files #
+response.tl
